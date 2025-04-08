@@ -1,0 +1,197 @@
+/* Remove uneccessary padding and marggin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overall-bg {
+  background-color: #fff;
+}
+.bg-color {
+  background-color: #f6f7f8;
+  padding: 30px;
+}
+.flex-overview {
+  display: flex;
+  gap: 15px;
+  padding-top: 6px;
+}
+
+/* Navbar section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 10px 5px 0px 5px;
+  margin-bottom: 20px;
+}
+.patience {
+  background-color: #01f0d0;
+  padding: 5px;
+  margin-top: -5px;
+  border-radius: 15px;
+}
+.doctor {
+  display: flex;
+  gap: 10px;
+  padding-top: 0px;
+}
+.name {
+  height: 20px;
+  display: flex;
+}
+.doc-image {
+  width: 40px;
+  height: 40px;
+}
+.doc-image1 {
+  width: 30px;
+  height: 30px;
+}
+.gear {
+  border-right: 1px solid rgb(224, 220, 220);
+  padding-right: 10px;
+}
+.gea {
+  padding-top: 5px;
+}
+.logo-emoji {
+  width: 120px;
+}
+.flexall {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+section {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+@media (min-width: 760px) {
+  .flex-section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    gap: 20px;
+  }
+}
+
+.jessica-section {
+  text-align: center;
+  padding-top: 20px;
+}
+.jessica-section img {
+  width: 60%;
+}
+.grid-jesica {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.space-top {
+  padding-top: 20px;
+  font-size: small;
+  text-align: left;
+}
+.info-pad {
+  text-align: center;
+  margin-top: 15px;
+}
+.section2 {
+  background-color: #f6f7f8;
+}
+.middle-section {
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.middle-section {
+  text-align: left;
+}
+.table-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.small-marging {
+  border-top: 1px solid rgb(220, 214, 214);
+  padding-bottom: 15px;
+}
+.lab {
+  margin-top: 15px;
+}
+.table2-grid {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  row-gap: 10px;
+}
+.left-aling {
+  text-align: left;
+  font-size: small;
+}
+.graph-section {
+  background-color: #f4f0fe;
+}
+.grid-resporatory {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+.respiratory {
+  background-color: #e0f3fa;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.resImageSize {
+  width: 80px;
+}
+.respiratoryFont {
+  font-size: 20px;
+  padding: 15px 0px;
+}
+.temprature {
+  background-color: #ffe6e9;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+}
+.heart-rate {
+  background-color: #ffe6f1;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+}
+.systolic {
+  background-color: #e66fd2;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.grid-systolic {
+  display: flex;
+  padding: 10px;
+}
+.padding10 {
+  padding-bottom: 10px;
+}
+.graph-section {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 15px;
+  text-align: left;
+  border-radius: 8px;
+  padding: 15px;
+}
+.diastolic {
+  background-color: #8c6fe6;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+  padding-top: 10px;
+}
+.graph {
+  width: 100%;
+  height: 300px;
+}
