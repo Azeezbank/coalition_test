@@ -134,7 +134,7 @@ const App: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="doctor">
+            <div className="doctor doctor-top">
               <img className="doc-image1" src={layer} alt="doctor" />
               <div className="gear">
                 <h5>Dr. Jose simmons</h5>
@@ -147,11 +147,11 @@ const App: React.FC = () => {
                 <i className="bi bi-three-dots"></i>
               </p>
             </div>
-            {/* <div className="menubar">
+            <div className="menubar">
               <span></span>
               <span></span>
               <span></span>
-            </div> */}
+            </div>
           </nav>
 
           {/* Rendered of API data section */}

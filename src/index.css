@@ -22,6 +22,7 @@
   gap: 10px;
   padding-top: 6px;
   width: fit-content;
+  margin-right: 30px;
 }
 .flex-overview p {
   display: flex;
@@ -50,6 +51,7 @@ nav {
   width: fit-content;
   gap: 10px;
   padding-top: 0px;
+  margin-right: 10px;
 }
 .name {
   height: 20px;
@@ -211,14 +213,36 @@ section {
   width: 100%;
   height: 300px;
 }
+.menubar {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 10px;
+}
+.menubar span {
+  background-color: #01f0d0;
+  width: 20px;
+  height: 3px;
+  margin: 2px;
+}
 @media (max-width: 760px) {
   .bg-color {
     margin: 10px;
     padding: 8px;
     width: 100%;
   }
+  .doctor-top {
+    display: none;
+  }
+  .flex-overview {
+    display: none;
+  }
   * {
     font-size: 10px;
+  }
+  nav {
+    display: flex;
+    width: 100%;
   }
  
 }
