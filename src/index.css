@@ -19,10 +19,13 @@
 }
 .flex-overview {
   display: flex;
-  justify-content: left;
-  align-items: start;
-  gap: 15px;
+  gap: 10px;
   padding-top: 6px;
+  width: fit-content;
+}
+.flex-overview p {
+  display: flex;
+  gap: 5px;
 }
 
 /* Navbar section */
@@ -44,9 +47,9 @@ nav {
 }
 .doctor {
   display: flex;
+  width: fit-content;
   gap: 10px;
   padding-top: 0px;
-  text-align: right;
 }
 .name {
   height: 20px;
@@ -66,6 +69,8 @@ nav {
 }
 .gea {
   padding-top: 5px;
+  text-align: right;
+  margin: 0px;
 }
 .logo-emoji {
   width: 120px;
