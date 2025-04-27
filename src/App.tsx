@@ -147,6 +147,11 @@ const App: React.FC = () => {
                 <i className="bi bi-three-dots"></i>
               </p>
             </div>
+            {/* <div className="menubar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div> */}
           </nav>
 
           {/* Rendered of API data section */}
@@ -156,7 +161,7 @@ const App: React.FC = () => {
               <section>
                 <div className="flexall">
                   <h3>Patience</h3>
-                  <i className="bi bi-search"></i>
+                  <i className="bi bi-search search"></i>
                 </div>
                 <div className="flexall">
                   <div className="doctor">
@@ -166,7 +171,7 @@ const App: React.FC = () => {
                       alt="doctor"
                     />
                     <div>
-                      <h5>{data.name}</h5>
+                      <h6>{data.name}</h6>
                       <p>
                         {data.gender}, {data.age}
                       </p>
@@ -291,11 +296,13 @@ const App: React.FC = () => {
                 <section className="middle-section">
                   <h4 className="middle-section">Dignostic List</h4>
                   <table>
+                    <thead>
                     <tr>
                       <th className="padding10">Problem/Diagnosis</th>
                       <th className="padding10">Description</th>
                       <th className="padding10">Status</th>
                     </tr>
+                    </thead>
                     <tbody>
                       {data.diagnostic_list.map((list, index) => (
                         <tr key={index}>
